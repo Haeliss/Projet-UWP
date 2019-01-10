@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="LudikGame.Carte"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LudikGame"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100px"/>
+        </Grid.RowDefinitions>
+        <Maps:MapControl MapServiceToken="59jk4Rnk5NrlbUDs0y7G~y5JCydDQnpZrxScRK4gndA~ArUTMNNa3y6bM2SEeQ5Jep0_64EtM73cq7mobgbBQo-e-ufaUi_s2ux_KvNpy5X6" Grid.Column="0" Grid.Row="0" x:Name="Display" />
+        <TextBlock Grid.Column="0" Grid.Row="1" x:Name="erreur" Text="La géolocalisation n'est pas autorisée !" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" FontFamily="Comic Sans MS" />
+        <Button Grid.Column="0" Grid.Row="1" x:Name="quitter" Content="Quitter" Click="quitter_Click" HorizontalAlignment="Right" Margin="0,0,10,0" FontFamily="Comic Sans MS"/>
+    </Grid>
+</Page>

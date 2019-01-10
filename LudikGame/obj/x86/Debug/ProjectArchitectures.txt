@@ -1,0 +1,1 @@
+E:\Projet UWP\LudikGame\LudikGame\LudikGame.csproj;x86

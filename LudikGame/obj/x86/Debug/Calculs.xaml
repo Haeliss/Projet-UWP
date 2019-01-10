@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="LudikGame.Calculs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LudikGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100px"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="200px"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="Calculs" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS"/>
+        <TextBlock x:ConnectionId='2' x:Name="lbl_regle" Grid.Column="0" Grid.Row="1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" />
+        <Button x:ConnectionId='3' Grid.Column="0" Grid.Row="2" x:Name="commencer" Content="C'est parti !"                         HorizontalAlignment="Center" FontFamily="Comic Sans MS"/>
+        <Button x:ConnectionId='4' Grid.Column="1" Grid.Row="2" x:Name="retour" Content="Retour"                      HorizontalAlignment="Right" Margin="0,0,10,0" FontFamily="Comic Sans MS"/>
+    </Grid>
+</Page>
+
