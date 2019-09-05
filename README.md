@@ -10,7 +10,7 @@ Projet de LP DAM (2018/2017)
 * [Visual Studio](https://visualstudio.microsoft.com/fr/downloads/)
 
 #### Telecharger le projet
-* [Github](https://github.com/Haeliss/Projet-UWP)
+* [Github](https://github.com/Lisa-Demmer/Projet-UWP)
 
 #### Auteur du projet
 * DEMMER Lisa-Marie
